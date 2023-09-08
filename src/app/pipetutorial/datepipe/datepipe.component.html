@@ -1,0 +1,13 @@
+<p>datepipe works!</p>
+<div>
+    <p>current date is {{currentDate}}</p>
+    <p>current date is {{currentDate|date:'medium'|lowercase}}</p>
+    <p>current date is {{currentDate|date:'dd-mm-yy'}}</p>
+    <p>current date is {{currentDate|date:'dd-MMM-yy'}}</p>
+    <p>current time is {{currentDate|date:'hh:mm:ss a'}}</p>
+    <p>current time is {{currentDate|date:"fullDate"}}</p>
+
+    <p>amount{{amount|currency:'INR':true:'2.3-4'}}</p>
+
+    <p>custome pipe:{{description | upper}}</p>
+  </div>
